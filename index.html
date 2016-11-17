@@ -6,11 +6,19 @@
     <title>Formulaire</title>
     <meta name="description" content="Enregistrement des données formulaire en BDD">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<!-- FORMULAIRE ICI-->
+  <form id="txt" method="post" action="saisie.php">
+    <label for="nom">Nom  : </label><input type="text" name="nom" value="nom" id="nom"/>
+    <label for="prenom">Prenom  : </label><input type="text" name="prenom" value="prenom" id="prenom" />
+    <label for="email">Email  : </label><input type="text" name="email" value="email" id="email" />
+    <label for="message">Message</label><input type="text" name="message" value="message"/>
+    <button type="submit" name="button" >Soumettre</button>
+
+</form>
 
 
 
